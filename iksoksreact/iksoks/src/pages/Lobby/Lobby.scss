@@ -1,0 +1,31 @@
+.lobby {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  &__heading {
+    font-size: 50px;
+  }
+
+  &__container {
+    width: 500px;
+    height: 400px;
+    background-color: aqua;
+    color: red;
+    padding: 15px;
+    border: 2px solid black;
+  }
+
+  &__list-item {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    width: 100px;
+
+    &:hover {
+      color: white;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.game {
+  display: flex;
+  justify-content: center;
+
+  &__button {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    color: black;
+    padding: 10px;
+    font-size: 32px;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1px;
+  }
+}
